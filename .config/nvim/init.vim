@@ -1,0 +1,11 @@
+set rnu
+set nu
+syntax on
+set tabstop=4
+set autoindent
+set wildmode=longest,list
+set mouse=a
+colorscheme ayu
+set shiftwidth=4
+set softtabstop=4
+set expandtab

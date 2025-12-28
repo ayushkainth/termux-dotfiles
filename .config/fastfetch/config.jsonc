@@ -1,0 +1,93 @@
+{
+     "logo": {
+         "source":"~/.config/fastfetch/logo.txt",
+        "padding": {
+            "top": 2,
+            "left": 0,
+            "right":0,
+            "bottom":0
+        }
+     },
+
+     "display": {
+         "separator": " "
+     },
+
+     "modules": [
+         "break",
+
+        {
+            "type": "custom",
+            "format": "\u001b[32m┌─────────────Hardware──────────────────────┐"
+        },
+
+        {
+            "type": "host",
+            "key": " ",
+            "keyColor": "green"
+        },
+        {
+            "type": "cpu",
+            "key": "│├",
+            "format": "{1}",
+            "keyColor": "green"
+        },
+        {
+            "type": "memory",
+            "key": "│├",
+            "keyColor": "green"
+        },
+        {
+                                                                "type": "localip",
+            "key": "└└",
+            "keyColor": "green"
+        },
+
+        {
+            "type": "custom",
+            "format": "\u001b[32m└────────────────────────────────────────────────────┘"
+         },
+                                                        "break",
+                                                                {
+            "type": "custom",
+            "format": "\u001b[33m┌─────────────Software──────────────────────┐"
+          },
+        
+          {
+            "type": "os",
+            "key": " OS",
+            "keyColor": "yellow"
+          },
+                                                                 {                                                  "type": "kernel",
+            "key": "│├",
+            "format": "{sysname}",
+            "keyColor": "yellow"
+                                                                 },
+                                                                 {
+                                                                 "type": "packages",
+             "key": "│├󰏖",
+             "keyColor": "yellow"
+                                                                 },
+          {
+                                                                 "type": "shell",
+             "key": "│├",
+             "keyColor": "yellow"
+          },
+          {
+                                                                 "type": "TerminalFont",
+             "key": "└└",
+             "keyColor": "yellow"
+          },
+
+          {
+            "type": "custom",
+            "format": "\u001b[33m└────────────────────────────────────────────────────┘"
+          },
+                                                                 {
+            "type": "colors",
+            "paddingLeft": 2,
+            "symbol": "circle"
+          }
+
+    ]
+}
