@@ -9,3 +9,6 @@ function fish_title
         echo (prompt_pwd)
     end
 end
+
+enable_transience
+
