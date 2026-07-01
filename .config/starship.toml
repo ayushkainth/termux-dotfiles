@@ -31,6 +31,7 @@ scan_timeout = 100
 
 [os]
 disabled = false
+# style = "bg:red fg:crust"
 style = "bg:red fg:crust"
 
 [os.symbols]
@@ -46,8 +47,8 @@ Gentoo = "󰣨"
 Fedora = "󰣛"
 Alpine = ""
 Amazon = ""
-Android = ""
-Arch = "󰣇"
+Arch = ""
+Android = "󰣇"
 Artix = "󰣇"
 CentOS = ""
 Debian = "󰣚"
